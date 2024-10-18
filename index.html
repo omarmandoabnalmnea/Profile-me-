@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Ashraf</title>
+    <link rel="icon" href="assets/images/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="assets/images/pro.jpg" alt="الصورة الشخصية" class="profile-pic">
+        <h1>Omar Ashraf</h1>
+        <p class="bio">مرحبًا بكم في صفحتي الشخصية! أنا مبرمج حر متخصص في تطوير البوتات والمواقع، بالإضافة إلى كوني مصمم متواضع يسعى دائمًا لتحسين مهاراته.</p>
+        <div class="links">
+            <a href="https://www.instagram.com/xenxp_" class="link">
+                 حسابي على إنستغرام
+                <img src="assets/images/instagram.svg" alt="Instagram" />
+            </a>
+            <a href="http://t.me/U3_F1" class="link">
+                 حسابي على تليجرام
+                <img src="assets/images/telegram.svg" alt="Telegram" />
+            </a>
+            <a href="https://www.youtube.com/@Codzii" class="link">
+                قناتي على اليوتيوب
+                <img src="assets/images/youtube.svg" alt="YouTube" />
+            </a>
+            <a href="https://chat.whatsapp.com/BCGHfItSQMi0sZ6unqALE9" class="link">
+                 جروب الدعم على واتساب
+                <img src="assets/images/whatsapp.svg" alt="WhatsApp" />
+            </a>
+            <a href="https://github.com/XBej" class="link">
+                 حسابي على جيت هاب
+                <img src="assets/images/github.svg" alt="GitHub" />
+            </a>
+            <a href="#" class="nav-link" data-form="complaints">الشكاوى</a>
+            <a href="#" class="nav-link" data-form="contact">تواصل معنا</a>
+            <a href="#" class="nav-link" data-form="work">العمل معنا</a>
+        </div>
+        <div class="social-icons">
+            <a href="#" class="social-icon">
+                <img src="assets/images/facebook.svg" alt="facebook" style="width: 24px; height: 24px;">
+            </a>            
+            <a href="https://x.com/OmarAshraf911S" class="social-icon">
+                <img src="assets/images/x.svg" alt="x" style="width: 24px; height: 24px;">
+            </a>   
+        </div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title">تواصل معنا</h2>
+            <form id="multi-purpose-form">
+                <div class="form-group">
+                    <label for="name">الاسم:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label  for="email">البريد الإلكتروني:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">رقم الهاتف:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group" id="job-type-group" style="display: none;">
+                    <label for="job-type">نوع الوظيفة:</label>
+                    <select id="job-type" name="job-type">
+                        <option value="">اختر نوع الوظيفة</option>
+                        <option value="developer">مطور</option>
+                        <option value="designer">مصمم</option>
+                        <option value="marketing">تسويق</option>
+                        <option value="other">أخرى</option>
+                    </select>
+                </div>
+                <div class="form-group" id="complaint-type-group" style="display: none;">
+                    <label for="complaint-type">نوع الشكوى:</label>
+                    <select id="complaint-type" name="complaint-type">
+                        <option value="">اختر نوع الشكوى</option>
+                        <option value="service">خدمة العملاء</option>
+                        <option value="product">المنتج</option>
+                        <option value="website">الموقع الإلكتروني</option>
+                        <option value="other">أخرى</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">الرسالة:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="attachment">إرفاق ملف:</label>
+                    <input type="file" id="attachment" name="attachment">
+                </div>
+                <button type="submit" class="submit-btn">إرسال</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
